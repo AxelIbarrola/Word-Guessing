@@ -10,7 +10,7 @@ def main():
     
     random_words = get_random_words()
     random_word = choice(random_words)
-    print(random_word)
+
     
     print('The word was selected:')
     hidden_word = '_'*len(random_word)
